@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: audit-bloated-claude-md
+expected_outcome: |
+  Keeps the invisible fact about the SFTP drop, removes the stack and where-to-look lines and the shouted emphasis, and moves the 'never edit migrations' hard limit toward a deny rule rather than leaving it only as guidance.

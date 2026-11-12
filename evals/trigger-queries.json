@@ -1,0 +1,82 @@
+[
+  {
+    "query": "I want to leave Claude Code running overnight on a big refactor. How do I set it up so it's safe and I don't wake up to a mess?",
+    "should_trigger": true
+  },
+  {
+    "query": "what's the difference between a deny rule and auto mode and which one actually guarantees claude won't read my .env?",
+    "should_trigger": true
+  },
+  {
+    "query": "my Stop hook runs pytest but claude finishes anyway when tests fail, why",
+    "should_trigger": true
+  },
+  {
+    "query": "can you audit my .claude/settings.json and CLAUDE.md before I let sessions run unattended",
+    "should_trigger": true
+  },
+  {
+    "query": "How should I structure an orchestrator session that spins up worker threads for each task and checks what comes back?",
+    "should_trigger": true
+  },
+  {
+    "query": "Is it ok to turn on merge when ready for PRs claude opens? we have CI but I'm nervous",
+    "should_trigger": true
+  },
+  {
+    "query": "my CLAUDE.md is full of IMPORTANT and NEVER lines from when we used an older model. does that still help?",
+    "should_trigger": true
+  },
+  {
+    "query": "should I run my long claude sessions in a cloud session or a local sandbox? I have SSH keys on my laptop",
+    "should_trigger": true
+  },
+  {
+    "query": "how do I stop approving every single command but still stay safe",
+    "should_trigger": true
+  },
+  {
+    "query": "we run like 15 claude code sessions in parallel now, how do we keep code quality up without reading every diff",
+    "should_trigger": true
+  },
+  {
+    "query": "Write a pytest fixture that mocks a Postgres connection for my Django tests",
+    "should_trigger": false
+  },
+  {
+    "query": "How do I write a Claude Code slash command that formats my commit messages?",
+    "should_trigger": false
+  },
+  {
+    "query": "explain how the Claude API handles tool use and streaming",
+    "should_trigger": false
+  },
+  {
+    "query": "Set up GitHub Actions to run eslint and jest on every pull request in my React app",
+    "should_trigger": false
+  },
+  {
+    "query": "what is the best way to structure a Python monorepo with poetry",
+    "should_trigger": false
+  },
+  {
+    "query": "Help me write a prompt that makes Claude summarize legal contracts more reliably",
+    "should_trigger": false
+  },
+  {
+    "query": "how do I install Claude Code on Ubuntu and what node version do I need",
+    "should_trigger": false
+  },
+  {
+    "query": "fix this bash script, it loops forever when the file doesn't exist",
+    "should_trigger": false
+  },
+  {
+    "query": "what are good practices for writing unit tests with mocks in TypeScript",
+    "should_trigger": false
+  },
+  {
+    "query": "create a skill that teaches Claude my company's brand voice for blog posts",
+    "should_trigger": false
+  }
+]

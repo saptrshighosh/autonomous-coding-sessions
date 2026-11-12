@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: maps-human-jobs-to-takeover
+expected_outcome: |
+  The answer maps approving to auto mode (with deny rules for hard limits), steering to the model and a trimmed CLAUDE.md, and reading every diff to pass/fail checkpoints, hooks, CI and an independent reviewer. It says to ask what takes over each job. It does not invent statistics.

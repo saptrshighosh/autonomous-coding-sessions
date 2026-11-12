@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: hook-exit-code
+expected_outcome: |
+  Identifies that exit code 1 does not send Claude back to fix the failure and exit code 2 does. Suggests changing the failure path to exit 2 and printing the test output to stderr. May mention keeping a retry cap.
